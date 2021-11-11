@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pennymor</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<style>
+
+
+.landing {
+position: relative;
+background-image: url(./bpic.jpg);
+background-repeat: no-repeat;
+background-size: contain;
+background-position: right;
+height: 65%;
+display: flex;
+flex-direction: column;
+
+}
+
+
+.hero {
+  
+  /* justify-content: space-around; */
+background-color: #c3c2f3b4; 
+width: 50%;
+min-height: 100vh;
+padding: 10px 20px;
+}
+
+
+.hero {
+margin-right: 50% ;
+font-size: large;
+}
+
+.hero p{
+    color: rgb(1, 5, 8);
+    font: 1em sans-serif;
+}
+
+.hero h1{
+    color: rgb(1, 4, 7);
+    margin-top: 180px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.card-section {
+    margin-top: 80px;
+}
+.card-column{
+    position: relative;
+}
+
+.card-body p {
+    font-size: medium;
+    
+}
+
+.card-text {
+font-family: sans-serif;
+font-weight: bold;
+}
+
+</style>
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <!-- navbar section -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#" style="font-weight: bold;">PMB</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Autosave">Save</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Invest
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="./invest.html">Agriculture</a>
+                <a class="dropdown-item" href="./invest.html">Technology</a>
+                <a class="dropdown-item" href="./invest.html">Real Estate</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Other</a>
+              </div>
+            </li> 
+          </ul>
+          <form class="form-inline my-2 my-lg-0" action="./index.html">
+            <button  class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign up</button>
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign in</button>
+          </form>
+        </div>
+      </nav>
+
+
+     
+      <!-- hero section -->
+       <section class="landing">
+        <div class="hero">
+          <h1>Want to improve your financial health?</h1>
+          <p>PMB helps you lay foundation towards a stable and secure financial future.</p>
+  
+           <form action="./index.html">
+            <button  class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign up</button>
+         </form> 
+         </div>
+        </section>
+        
+         <!-- card section -->
+       <section class="card-section" id="Autosave">
+        <div class="card-columns">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <h1 class="card-text" id="Edpal">Edplan <br></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae a incidunt veniam omnis enim necessitatibus quam, sed nesciunt aspernatur totam consequatur commodi atque fugiat earum, minima consequuntur quaerat rem iure iusto esse perferendis culpa. Magni!
+                    </p>
+                    <form action="#">
+                        <button  class="btn btn-outline-success my-2 my-sm-0" type="submit">Learn more</button>
+                     </form>
+              </div>
+            </div>
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <h1 class="card-text" id="Fixed plan">Fixed plan <br></h1>
+                  <p>  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet quos nihil dolorem ipsam quibusdam dolor consequatur, velit minus! Exercitationem maxime deserunt ullam corrupti rerum. Laborum, aspernatur laboriosam amet nostrum vitae iure voluptatum iusto.
+                </p>
+                <form action="#">
+                    <button  class="btn btn-outline-success my-2 my-sm-0" type="submit">Learn more</button>
+                 </form>
+              </div>
+            </div>
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <h1 class="card-text" id="Autosave">Autosave <br></h1>
+               <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, illo. Temporibus aut obcaecati dolore similique adipisci labore quo, fugiat velit beatae eum odio, officia eligendi nam aspernatur, voluptatum dicta cum provident aliquam deserunt aperiam. Asperiores.
+                </p>
+                <form action="#">
+                    <button  class="btn btn-outline-success my-2 my-sm-0" type="submit">Learn more</button>
+                 </form>
+              </div>
+            </div>
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <h1 class="card-text"id="Goalsaver" >Goalsaver <br></h1>
+               <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci iusto eveniet cum iure, sunt fugit nulla magnam commodi reprehenderit porro eum repudiandae nesciunt ut consequatur soluta esse. Voluptate repellendus quas et adipisci libero, excepturi omnis.
+                </p>
+                <form action="#">
+                    <button  class="btn btn-outline-success my-2 my-sm-0" type="submit">Learn more</button>
+                 </form>
+              </div>
+            </div>
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <h1 class="card-text" id="Famsave">Famsave <br></h1>
+                   <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae perspiciatis non quae dolorum vero, atque recusandae quia impedit dolorem accusantium exercitationem repellat necessitatibus, ipsum pariatur alias accusamus fuga qui quod dolores sint est, quasi. 
+                </p>
+                <form action="#" id="">
+                    <button  class="btn btn-outline-success my-2 my-sm-0" type="submit">Learn more</button>
+                 </form>
+              </div>
+            </div>
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <h1 class="card-text" id="Homesave">Homesave <br></h1>
+                  <p>  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, doloremque doloribus id laboriosam vero cupiditate architecto modi quae tenetur non voluptatibus itaque fugit aut dicta temporibus labore dolore impedit nulla, nisi atque iure. Impedit, repudiandae.
+                </p>
+                <form action="#">
+                    <button  class="btn btn-outline-success my-2 my-sm-0" type="submit">Learn more</button>
+                 </form>
+              </div>
+            </div>
+          </div>   
+    
+          
+
+
+
+
+
+         <!-- Footer -->
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4">
+   
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example21" class="form-control" />
+              <label class="form-label" for="form5Example21">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+        eum harum corrupti dicta, aliquam sequi voluptate quas.
+      </p>
+    </section>
+    <!-- Section: Text -->
+
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Products</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#Edpal" class="text-white">Edplan</a>
+            </li>
+            <li>
+              <a href="#Autosave" class="text-white">Autosave</a>
+            </li>
+            <li>
+              <a href="#Homesave" class="text-white">Homesave</a>
+            </li>
+            <li>
+              <a href="#Famsave" class="text-white">Famsave</a>
+            </li>
+            <li>
+              <a href="#Goalsaver" class="text-white">Goalsaver</a>
+            </li>
+            <li>
+              <a href="#Fixed plan" class="text-white">Fixed plan</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Company</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">About</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">FAQs</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Blog</a>
+            </li>
+            
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Legal</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Terms</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Privacy</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Security</a>
+            </li>
+           
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+         
+          <!-- Links -->
+          <h5 class="text-uppercase">Contact</h5>
+          
+          <p> New York, NY 900, US</p>
+          <p>info@pmb.com</p>
+          <p> + 170 567 006 246</p>
+          <p> + 170 234 567 189</p>
+        </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2021 Copyright:
+    <a class="text-white" href="https://pmb.com/">pmb.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer --> 
+</body>
+</html>
